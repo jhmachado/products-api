@@ -1,7 +1,7 @@
 {
-  "name": "api",
+  "name": "products-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple API created to support the Angular project",
   "main": "index.js",
   "scripts": {
     "start": "node dist/app.js",
@@ -9,8 +9,12 @@
     "build": "tsc -p .",
     "test": "jest --no-cache"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Products",
+    "REST",
+    "API"
+  ],
+  "author": "Jhonatan Machado <jh.machado12@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
