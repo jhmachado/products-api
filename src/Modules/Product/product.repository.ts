@@ -1,7 +1,7 @@
-import { Product } from "./product.model";
+import {Product} from "./product.model";
 
 export class ProductRepository {
-    
+
   queryProducts(): Product[] {
     return [
       {

@@ -1,8 +1,7 @@
-import { Product } from "./product.model";
-import { ProductRepository } from "./product.repository";
+import {ProductRepository} from "./product.repository";
 
 export class ProductController {
-    
+
   constructor(private repository: ProductRepository) {}
 
   queryProducts(): string {
