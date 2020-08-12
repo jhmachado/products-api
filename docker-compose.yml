@@ -2,8 +2,7 @@ version: '3.4'
 
 services:
   app:
-    build:
-      context: ./docker/api
+    image: jhmachado12/node:14
     volumes:
     - .:/app
     ports:
